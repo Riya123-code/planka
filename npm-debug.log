@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData concurrently
+20 silly mapToRegistry name concurrently
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/concurrently
+24 silly fetchNamedPackageData husky
+25 silly mapToRegistry name husky
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/husky
+29 silly fetchNamedPackageData lint-staged
+30 silly mapToRegistry name lint-staged
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/lint-staged
+34 verbose request uri https://registry.npmjs.org/husky
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 05:13:45
+37 verbose request id 49c8c79db5cf134d
+38 verbose etag W/"9e574a597099945e3b0ca2fefdfe720f"
+39 verbose lastModified Tue, 08 Nov 2022 03:41:07 GMT
+40 http request GET https://registry.npmjs.org/husky
+41 verbose request uri https://registry.npmjs.org/concurrently
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 05:13:45
+44 verbose etag W/"b0bdd4be032952d35e5a0827180c8e9e"
+45 verbose lastModified Sat, 22 Oct 2022 05:53:25 GMT
+46 http request GET https://registry.npmjs.org/concurrently
+47 verbose request uri https://registry.npmjs.org/lint-staged
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 05:13:45
+50 verbose etag W/"f62e3f9c70c7e8551c85d1e553fc0267"
+51 verbose lastModified Fri, 28 Oct 2022 20:17:42 GMT
+52 http request GET https://registry.npmjs.org/lint-staged
+53 http 304 https://registry.npmjs.org/husky
+54 verbose headers { date: 'Thu, 17 Nov 2022 18:13:43 GMT',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'cf-ray': '76ba71243f0a85a2-BOM',
+54 verbose headers   age: '119',
+54 verbose headers   'cache-control': 'public, max-age=300',
+54 verbose headers   etag: '"9e574a597099945e3b0ca2fefdfe720f"',
+54 verbose headers   'last-modified': 'Tue, 08 Nov 2022 03:41:07 GMT',
+54 verbose headers   vary: 'Accept-Encoding',
+54 verbose headers   'cf-cache-status': 'HIT',
+54 verbose headers   'x-amz-replication-status': 'COMPLETED',
+54 verbose headers   server: 'cloudflare' }
+55 silly get cb [ 304,
+55 silly get   { date: 'Thu, 17 Nov 2022 18:13:43 GMT',
+55 silly get     connection: 'keep-alive',
+55 silly get     'cf-ray': '76ba71243f0a85a2-BOM',
+55 silly get     age: '119',
+55 silly get     'cache-control': 'public, max-age=300',
+55 silly get     etag: '"9e574a597099945e3b0ca2fefdfe720f"',
+55 silly get     'last-modified': 'Tue, 08 Nov 2022 03:41:07 GMT',
+55 silly get     vary: 'Accept-Encoding',
+55 silly get     'cf-cache-status': 'HIT',
+55 silly get     'x-amz-replication-status': 'COMPLETED',
+55 silly get     server: 'cloudflare' } ]
+56 verbose etag https://registry.npmjs.org/husky from cache
+57 verbose get saving husky to /home/riya/.npm/registry.npmjs.org/husky/.cache.json
+58 http 304 https://registry.npmjs.org/lint-staged
+59 verbose headers { date: 'Thu, 17 Nov 2022 18:13:43 GMT',
+59 verbose headers   connection: 'keep-alive',
+59 verbose headers   'cf-ray': '76ba71243c078495-BOM',
+59 verbose headers   age: '34',
+59 verbose headers   'cache-control': 'public, max-age=300',
+59 verbose headers   etag: '"f62e3f9c70c7e8551c85d1e553fc0267"',
+59 verbose headers   'last-modified': 'Fri, 28 Oct 2022 20:17:42 GMT',
+59 verbose headers   vary: 'Accept-Encoding',
+59 verbose headers   'cf-cache-status': 'HIT',
+59 verbose headers   'x-amz-replication-status': 'COMPLETED',
+59 verbose headers   server: 'cloudflare' }
+60 silly get cb [ 304,
+60 silly get   { date: 'Thu, 17 Nov 2022 18:13:43 GMT',
+60 silly get     connection: 'keep-alive',
+60 silly get     'cf-ray': '76ba71243c078495-BOM',
+60 silly get     age: '34',
+60 silly get     'cache-control': 'public, max-age=300',
+60 silly get     etag: '"f62e3f9c70c7e8551c85d1e553fc0267"',
+60 silly get     'last-modified': 'Fri, 28 Oct 2022 20:17:42 GMT',
+60 silly get     vary: 'Accept-Encoding',
+60 silly get     'cf-cache-status': 'HIT',
+60 silly get     'x-amz-replication-status': 'COMPLETED',
+60 silly get     server: 'cloudflare' } ]
+61 verbose etag https://registry.npmjs.org/lint-staged from cache
+62 verbose get saving lint-staged to /home/riya/.npm/registry.npmjs.org/lint-staged/.cache.json
+63 silly resolveWithNewModule husky@8.0.2 checking installable status
+64 silly cache add args [ 'husky@^8.0.1', null ]
+65 verbose cache add spec husky@^8.0.1
+66 silly cache add parsed spec Result {
+66 silly cache add   raw: 'husky@^8.0.1',
+66 silly cache add   scope: null,
+66 silly cache add   name: 'husky',
+66 silly cache add   rawSpec: '^8.0.1',
+66 silly cache add   spec: '>=8.0.1 <9.0.0',
+66 silly cache add   type: 'range' }
+67 silly addNamed husky@>=8.0.1 <9.0.0
+68 verbose addNamed ">=8.0.1 <9.0.0" is a valid semver range for husky
+69 silly addNameRange { name: 'husky', range: '>=8.0.1 <9.0.0', hasData: false }
+70 silly mapToRegistry name husky
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry https://registry.npmjs.org/
+73 silly mapToRegistry uri https://registry.npmjs.org/husky
+74 verbose addNameRange registry:https://registry.npmjs.org/husky not in flight; fetching
+75 verbose stack Error: Missing required argument #1
+75 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+75 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+75 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+75 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+75 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+75 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+75 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+75 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+75 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+75 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+76 verbose cwd /home/riya/Downloads/planka-master
+77 error Linux 5.0.0-31-generic
+78 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+79 error node v8.10.0
+80 error npm  v3.5.2
+81 error code EMISSINGARG
+82 error typeerror Error: Missing required argument #1
+82 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+82 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+82 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+82 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+82 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+82 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+82 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+82 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+82 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+82 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+83 error typeerror This is an error with npm itself. Please report this error at:
+83 error typeerror     <http://github.com/npm/npm/issues>
+84 verbose exit [ 1, true ]
